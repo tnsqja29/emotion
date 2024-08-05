@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 이름 - Emotion 반응형 </title>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.0/css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="./js/emotion.js"></script>
+</head>
+
+<body>
+    <!-- #wrap>header+nav+search-container+section -->
+    <div id="wrap"> 
+        <header> 
+            <h1><i class="fab fa-firstdraft"></i>
+               
+                <span>EMOTION</span>
+            </h1>
+            <address>
+                2024 EMOTION <br> ALL RIGHT RESERVED.
+            </address>
+        </header>
+        <nav>
+            <!-- 편지봉투,검색아이콘 -->
+            <!-- ul>li>a>i.fas.fa-envelop -->
+            <ul>
+                <li><a href="#">
+                    <i class="fas fa-envelope"></i>
+                </a></li>
+                <li><a href="#">
+                    <i class="fas fa-search" id="searchButton"></i>
+                </a></li>
+            </ul>
+        </nav>
+        <div id="searchContainer" class="search-container">
+            <div> 
+                <input type="search" placeholder="검색어를 입력하세요">
+                <!-- i.fa-regular.fa-magnifying-glass -->
+                <i class="fa-regular fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <section>
+            <!-- article>.inner>.txt>h2+p -->
+            <article> 
+                <div class="inner">
+                    <div class="txt">
+                        <h2>01</h2>
+                        <p>Soft waves gently roll in on the blue sea, with a stretch of white sandy beach lining the shore.</p>
+                    </div>
+                    <!-- figure>video -->
+                    <!-- figure - 영상, 그림, 도표  -->
+                    <figure>
+                        <!-- muted(음소거) loop(반복) -->
+                        <video src="./src/vid1.mp4" muted loop></video>
+                    </figure>
+                </div>
+            </article>
+            <article>
+                <div class="inner">
+                    <div class="txt">
+                        <h2>02</h2>
+                        <p>Upon the blue sea, White waves dance. </p>
+                    </div>
+                        
+                    <figure>
+                       
+                        <video src="./src/vid2.mp4" muted loop></video>
+                    </figure>
+                </div>
+            </article>
+            <article>
+                <div class="inner">
+                    <div class="txt">
+                        <h2>03</h2>
+                        <p>On the tranquil West Sea, Beauty whispers with each wave.</p>
+                    </div>
+                    <!-- figure>video -->
+                    <!-- figure - 영상, 그림, 도표  -->
+                    <figure>
+                        <!-- muted(음소거) loop(반복) -->
+                        <video src="./src/vid3.mp4" muted loop></video>
+                    </figure>
+                </div>
+            </article>
+            <article>
+                <div class="inner">
+                    <div class="txt">
+                        <h2>04</h2>
+                        <p> On Busan's sea, Beauty's embrace, wild and free.</p>
+                    </div>
+                   
+                    <figure>
+                      
+                        <video src="./src/vid2.mp4" muted loop></video>
+                    </figure>
+                </div>
+            </article>
+        </section>
+        <aside>
+            <!-- .txt>h3+p+span -->
+            <div class="txt">
+                <h3>01</h3>
+                <p>Soft waves gently roll in on the blue sea, with a stretch of white sandy beach lining the shore.</p>
+                <span>CLOSE</span>
+            </div>
+            <figure>                
+                <video src="./src/vid1.mp4" muted loop></video>
+            </figure>
+        </aside>
+    </div>
+</body>
+
+</html>
